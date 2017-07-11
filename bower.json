@@ -1,0 +1,24 @@
+{
+  "name": "taaabs-playground",
+  "version": "0.1.0",
+  "description": "Client side application for creating and testing taaabs components.",
+  "main": "",
+  "keywords": [
+    "taaabs",
+    "ktbs"
+  ],
+  "authors": [
+    "Rémi Casado"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "taaabs-elements": "TaaabsElements/taaabs-elements"
+  }
+}
