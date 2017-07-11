@@ -8,26 +8,26 @@ This application requires [bower](https://bower.io/) to install... Or you can do
 
 ## How to install
 
- - First, clone this repo.
+First, clone this repo.
 
 ```sh
 git clone https://github.com/TaaabsElements/taaabs-playground.git
 ```
 
- - Then, clone each Taaabs component repo, using the `taaabs-clone-list` file.
+Then, clone each Taaabs component repo, using the `taaabs-clone-list` file.
 
 ```sh
 cd taaabs-elements
 for -f in `cat ../taaabs-clone-list`; do `git clone $f`; done
 ```
 
- - Create a symlink to the `bower_components`.
+Create a symlink to the `bower_components`.
 
 ```sh
 ln -s ./* ../bower_components/
 ```
 
- - Finally, downlaod the rest of the dependencies with `bower`.
+Finally, downlaod the rest of the dependencies with `bower`.
 
 ```sh
 cd ..
