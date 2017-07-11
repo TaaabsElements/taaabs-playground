@@ -20,7 +20,7 @@ Then, clone each Taaabs component repo, using the `taaabs-clone-list` file.
 ```sh
 mkdir taaabs-elements
 cd taaabs-elements
-for -f in `cat ../taaabs-clone-list`; do `git clone $f`; done
+for f in `cat ../taaabs-clone-list`; do `git clone $f`; done
 ```
 
 Create a symlink to the `bower_components`.
