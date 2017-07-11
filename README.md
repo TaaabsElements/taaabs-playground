@@ -12,6 +12,7 @@ First, clone this repo.
 
 ```sh
 git clone https://github.com/TaaabsElements/taaabs-playground.git
+cd taaabs-playground
 ```
 
 Then, clone each Taaabs component repo, using the `taaabs-clone-list` file.
