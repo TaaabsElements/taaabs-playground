@@ -10,26 +10,26 @@ This application requires [bower](https://bower.io/) to install... Or you can do
 
  - First, clone this repo.
 
-```powershell
+```sh
 git clone https://github.com/TaaabsElements/taaabs-playground.git
 ```
 
  - Then, clone each Taaabs component repo, using the `taaabs-clone-list` file.
 
-```powershell
+```sh
 cd taaabs-elements
 for -f in `cat ../taaabs-clone-list`; do `git clone $f`; done
 ```
 
  - Create a symlink to the `bower_components`.
 
-```powershell
+```sh
 ln -s ./* ../bower_components/
 ```
 
  - Finally, downlaod the rest of the dependencies with `bower`.
 
-```powershell
+```sh
 cd ..
 bower install
 ```
@@ -38,6 +38,6 @@ bower install
 
 Well, launch a server at the root of taaabs-playground. That's it. For example:
 
-```powershell
+```sh
 python -m SimpleHTTPServer 3030
 ```
