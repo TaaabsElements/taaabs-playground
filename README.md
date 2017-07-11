@@ -37,6 +37,10 @@ cd ..
 bower install
 ```
 
+```diff
+- Warning: Bower may asks you to choose a suitable version for "webcomponentsjs". Always choose the version which works with Polymer version lower than 2.x.
+```
+
 ## How to use
 
 Well, launch a server at the root of taaabs-playground. That's it. For example:
