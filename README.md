@@ -27,7 +27,7 @@ Create a symlink to the `bower_components`.
 
 ```sh
 mkdir ../bower_components
-ln -s ./* ../bower_components/
+for f in `ls ../taaabs-elements/`; do `ln -s ../taaabs-elements/$f $f`; done
 ```
 
 Finally, downlaod the rest of the dependencies with `bower`.
@@ -38,7 +38,8 @@ bower install
 ```
 
 ```diff
-- Warning: Bower may asks you to choose a suitable version for "webcomponentsjs". Always choose the version which works with Polymer version lower than 2.x.
+- Warning: Bower may asks you to choose a suitable version for "webcomponentsjs".
+- Always choose the version which works with Polymer version lower than 2.x.
 ```
 
 ## How to use
