@@ -27,6 +27,7 @@ Create a symlink to the `bower_components`.
 
 ```sh
 mkdir ../bower_components
+cd ../bower_components
 for f in `ls ../taaabs-elements/`; do `ln -s ../taaabs-elements/$f $f`; done
 ```
 
